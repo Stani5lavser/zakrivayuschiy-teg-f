@@ -13,4 +13,35 @@
 .page {
   min-inline-size: 320px;
   min-block-size: 100dvb;
+  background-image: var(--bg-image);
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: var(--main-font);
+  font-size: var(--font-size);
+  font-variation-settings: 'wght' var(--weight-regular), 'wdth' var(--wdth);
+}
+
+.header {
+  background-color: var(--bg-color);
+  margin-top: 100px;
+  margin-bottom: 98px;
+  font-family: var(--accent-font);
+  text-align: center;
+  padding-top: var(--padding-header);
+  padding-bottom: var(--padding-header);
+  border: var(--main-border);
+}
+
+.header__title {
+  margin-bottom: 20px;
+  font-size: var(--title-size);
+  line-height: 100%;
+}
+
+.header__subtitle {
+  font-size: var(--header-text-size);
+  text-transform: uppercase;
+  line-height: 100%;
 }
