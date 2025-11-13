@@ -3,7 +3,7 @@
     --main-font: 'Inter-Variable', sans-serif;
     --accent-font: 'PressStart2P', fantasy;
     --text-weight-normal: 400;
-    --text-weight-bold: 700;
+    --text-weight-bold: 715;
     --font-size: 18px;
     --font-size-card-label: 14px;
     --wdth: 100;
@@ -13,7 +13,7 @@
     --black-color: #000;
     --heart-contour-color: #000;
     --animation-fill-color: #FF0000;
-    --main-border: 2px solid black;
+    --main-border: 2px solid #000;
     --animation-duration: 0.3s;
     --title-size: clamp(49px, 4.5vw, 65px);
     --header-text-size: clamp(14px, 1.5972vw, 23px);
