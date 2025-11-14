@@ -373,17 +373,21 @@ body:has(dialog[open]) {
   }
 }
 
-@media (max-width: 375px) {
+@media (width <= 375px) {
 
   .header {
     margin-top: 27vw;
-    margin-bottom: 28vw;
+    margin-bottom: 27vw;
     padding: 120px 16px;
   }
 
-  .main,
+  .card__text {
+    padding: 18px 25px 26px 25px;
+  }
+
+  /* .main,
   .header,
   .footer {
     width: 100%;
-  }
+  } */
 }
